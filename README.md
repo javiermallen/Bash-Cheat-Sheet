@@ -1,22 +1,22 @@
 # Bash Cheat Sheet
 
- A cheat sheet for bash commands.
+ Una cheat sheet para comandos de Bash
 
 ## Command History
 
 ```bash
-!!            # Run the last command
+!!            # Ejecuta el último comando
 
 touch foo.sh
 chmod +x !$   # !$ is the last argument of the last command i.e. foo.sh
 ```
 
-## Navigating Directories
+## Navegando por los directorios
 
 ```bash
-pwd                       # Print current directory path
-ls                        # List directories
-ls -a|--all               # List directories including hidden
+pwd                       # Saca por pantalla el directorio donde nos encontramos
+ls                        # Lista directorios
+ls -a|--all               # List directories incluidos los ocultos
 ls -l                     # List directories in long form
 ls -l -h|--human-readable # List directories in long form with human readable sizes
 ls -t                     # List directories by modification time, newest first
